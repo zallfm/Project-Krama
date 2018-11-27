@@ -1,0 +1,2 @@
+class RulesPlace < ApplicationRecord
+end

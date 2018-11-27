@@ -1,0 +1,2 @@
+class RulesEvent < ApplicationRecord
+end
