@@ -1,24 +1,23 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Krama
+ [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
-Things you may want to cover:
+Languages : Ruby, Framework : Rails 
 
-* Ruby version
+# Need Install
+    Ruby version 2.5.1 or higher
+    PostgreSQL
+    Bundler
+    Rails
 
-* System dependencies
+# Run Localhost
+  
+    * git clone git@github.com:rhizalfahmi/todo.git | Clone this repo with ssh
+    * bundle install | Install gem
+    * rake db:create | Create database
+    * rake db:migrate | Create migration
+    * pg_ctl -D /usr/local/var/postgres start | Running PostgresSQL
+    * rails server | Running rails server in localhost
+    * running at ftp//0.0.0.0:3000
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 
